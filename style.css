@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+    background-image: images("images/Background_Photography.JPG");
+}
+
+header{
+    text-align: center;
+    align-content: center;
+}
+h1{
+    text-align: center;
+    align-content: center;
+    
+}
