@@ -1,6 +1,8 @@
 body{
-    background-color: aqua;
-    background-image: images("images/Background_Photography.JPG");
+    /* background-image: url("Images/Background_Photography.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
 }
 
 header{
@@ -12,3 +14,11 @@ h1{
     align-content: center;
     
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
