@@ -21,4 +21,8 @@ img {
   height: auto;
 }
 
-
+#about-me {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
