@@ -1,8 +1,25 @@
+html{
+    height: 100%;
+}
 body{
-     background-image: url("Images/Background_Photography.JPG");
+    height: 100%;
+     /* background-image: url("Images/Background_Photography.JPG");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;  */
+}
+.parallax {
+  /* The image used */
+  background-image: url("Images/Background_Photography.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header{
