@@ -13,7 +13,7 @@ body{
   background-image: url("Images/Background_Photography.jpg");
 
   /* Full height */
-  height: 100%; 
+  min-height: 100px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -42,4 +42,66 @@ img {
     text-align: center;
     font-size: 50px;
     color: blue;
+}
+
+.rocks{
+background-image: url(IMG_0030.JPG);
+/* Set a specific height */
+  min-height: 800px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.onRocks{
+background-image: url(IMG_0015.JPG);
+/* Set a specific height */
+  min-height: 800px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bird{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: teal;
+    font-size: 20px;
+}
+.codeIMG{
+background-image: url(Images/Spellbound_Tempo.png);
+/* Set a specific height */
+  min-height: 800px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tempoText{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: burlywood;
+    font-size: 20px;
+}
+
+.clockIMG{
+background-image: url(Images/Clock.png);
+/* Set a specific height */
+  min-height: 800px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
+
+#clockText{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: dimgray;
+    font-size: 20px;
 }
