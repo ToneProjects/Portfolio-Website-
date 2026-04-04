@@ -1,73 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="photo.css">
-    <title>Antonio Thomas-Photography</title>
-    </head>
-    <body>
-        <header>
-            <h1><a href="index.html">Home</a>~<a href="programming.html">Computer Science & Programming</a></h1>
-    </header>
-    <div id="myBtnContainer">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="photo.css">
+<title>Antonio Thomas-Photography</title>
+<!-- https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp used to create the gallery -->
+</head>
+<body>
+<header>
+  <h1><a href="index.html">Home</a><a href="programming.html">Computer Science & Programming</a>~<a href="photography.html">Photography</a>~<a href="about.html">About Me</a></h1>
+</header>
+<main>
+
+<h1>MYLOGO.COM</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+
+<div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('nature')"> Nature</button>
   <button class="btn" onclick="filterSelection('cars')"> Cars</button>
   <button class="btn" onclick="filterSelection('people')"> People</button>
+  <button class="btn" onclick="filterSelection('portraits')"> Portraits</button>
 </div>
-        <main>
-            <div class="row">
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
   <div class="column nature">
     <div class="content">
-      <img src="Images/code_image_one.png" alt="Mountains" style="width:100%">
+      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
       <h4>Mountains</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
-
+  <div class="column nature">
+    <div class="content">
+    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  
   <div class="column cars">
     <div class="content">
-      <img src="Images/Spellbound_Tempo.png" alt="Car" style="width:100%">
+      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
       <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+      <h4>Woman</h4>
       <p>Lorem ipsum dolor..</p>
     </div>
   </div>
 <!-- END GRID -->
 </div>
-        </main>
-        <footer><script src="script.js"></script></footer>
-    </body>
+</main>
+</div>
+<script src="main.js"></script>
+</body>
 </html>
-
-
-
-<!-- <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    <title>Antonio Thomas-Photography</title>
-    </head>
-    <body>
-        <header>
-            <h1><a href="index.html">Home</a>~<a href="programing.html">Computer Science & Programing</a></h1>
-    </header>
-    <div><h1>Explore a small sample of my photos!</h1></div>
-    <nav></nav>
-    <div id="bird"><p>Collection of birds</p></div>
-    <class><img src="Images/Background_Photography.JPG" alt="Background_Photography Image"></class>
-    <div class="parallax"></div>
-    <div>Nature</div>
-    <div class="rocks"></div>
-    <div class="parallax"></div>
-    <div>AGGGAAA</div>
-    <div class="onRocks"></div>
-    <div></div>
-    </div>
-        <Main>
-        </Main>
-        <footer></footer>
-    </body>
-</html> -->
