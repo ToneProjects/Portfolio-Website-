@@ -11,10 +11,6 @@ body{
 .parallax {
   /* The image used */
   background-image: url("Images/Background_Photography.jpg");
-
-  /* Full height */
-  min-height: 100px;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -57,7 +53,6 @@ background-image: url(IMG_0030.JPG);
 
 .onRocks{
 background-image: url(IMG_0015.JPG);
-/* Set a specific height */
   min-height: 800px; 
   background-attachment: fixed;
   background-position: center;
@@ -74,7 +69,6 @@ background-image: url(IMG_0015.JPG);
 }
 .codeIMG{
 background-image: url(Images/Spellbound_Tempo.png);
-/* Set a specific height */
   min-height: 800px; 
   background-attachment: fixed;
   background-position: center;
@@ -91,7 +85,6 @@ background-image: url(Images/Spellbound_Tempo.png);
 
 .clockIMG{
 background-image: url(Images/Clock.png);
-/* Set a specific height */
   min-height: 800px; 
   background-attachment: fixed;
   background-position: center;
@@ -104,5 +97,22 @@ background-image: url(Images/Clock.png);
     text-align: center;
     justify-content: center;
     color: dimgray;
+    font-size: 20px;
+}
+
+.todoIMG{
+  background-image: url(Images/Todoings.png);
+  min-height: 800px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
+
+#todoText{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: palevioletred;
     font-size: 20px;
 }
