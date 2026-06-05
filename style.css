@@ -134,3 +134,13 @@ background-image: url(Images/Clock.png);
     color: rgb(128, 11, 25);
     font-size: 20px;
 }
+
+.homeIMG{
+  background-image: url(Images/homeIMG.png);
+  min-height: 100vh; 
+  min-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
